@@ -750,4 +750,20 @@ a:focus {
 }
 
 
+.publication-title .project-name {
+  display: block;
+  font-size: clamp(36px, 5vw, 52px);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.publication-title .project-description {
+  display: block;
+  font-size: clamp(20px, 2.5vw, 26px);
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+
 
