@@ -330,6 +330,11 @@ body {
   border-radius: 2px;
 }
 
+.title.is-3.methodology-title::after {
+  left: 0;
+  transform: none;
+}
+
 /* Content Improvements */
 .content.has-text-justified {
   font-size: 1.1rem;
@@ -764,4 +769,3 @@ a:focus {
   font-weight: 400;
   line-height: 1.4;
 }
-
