@@ -411,10 +411,15 @@
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
+         <h2 class="title is-3 methodology-title">Spatial Analysis</h2>
+          <p class="experiment-question">Can R-SaD reveal spatial biases in generated images relative to real data?</p>
+      <img src="static/images/spatial-analysis.png" alt="Fourth research result visualization" loading="lazy"/>
+      <p class="subtitle has-text-left">
+        We evaluate spatial distribution alignment by comparing class-conditional samples from BigGAN, StyleGAN-XL, and LDM with the corresponding ImageNet subsets at 256 × 256 resolution.
+          Using ImageNet class names as textual attributes, we compute R-SaD as the difference between real and generated mean regional attribute scores at each patch and visualize the maps on a normalized 0–1 scale.
+          The results reveal distinct spatial tendencies: BigGAN favors approximately 45° diagonal orientations for electric guitars; StyleGAN-XL places rotary dial telephones more variably than the predominantly centered real examples; and LDM shifts burritos toward the upper image region.
+          These examples illustrate how R-SaD localizes dataset-level spatial discrepancies beyond a single global evaluation score.
+      </p>
     </div>
   </div>
 </div>
