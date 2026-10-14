@@ -82,7 +82,7 @@
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/index.css?v=20261014-methodology-2">
+  <link rel="stylesheet" href="static/css/index.css?v=20261014-injection">
   
   <!-- Non-critical CSS - Load asynchronously -->
   <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -387,7 +387,8 @@
       <div class="item">
         <!-- Your image here -->
           <h2 class="title is-3 methodology-title">Injection Experiment</h2>
-        <img src="static/images/injection.png" alt="Second research result visualization" loading="lazy"/>
+        <p class="experiment-question">Do the metrics respond to targeted attribute shifts?</p>
+        <img src="static/images/injection-content.png" alt="Injection experiment comparing Original, Makeup, Bangs, and Person images with their SaD and PaD curves" width="3200" height="1503" loading="lazy"/>
         <p class="subtitle has-text-left">
           We evaluate whether RA-CLIPScore-based Single-attribute Divergence (SaD) and Pair-attribute Divergence (PaD) capture controlled attribute shifts by progressively injecting images into FFHQ.
             DiffuseIT generates targeted edits using the prompts “makeup” and “bangs”, while unmodified images and neutral “person” edits serve as controls.

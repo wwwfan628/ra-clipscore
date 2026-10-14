@@ -339,6 +339,13 @@ body {
   transform: translateX(-50%);
 }
 
+.results-carousel .experiment-question {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+  margin: -1rem 0 1rem;
+}
+
 /* Content Improvements */
 .content.has-text-justified {
   font-size: 1.1rem;
