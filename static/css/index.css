@@ -330,9 +330,13 @@ body {
   border-radius: 2px;
 }
 
+.title.is-3.methodology-title {
+  width: fit-content;
+}
+
 .title.is-3.methodology-title::after {
-  left: 0;
-  transform: none;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Content Improvements */
