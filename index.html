@@ -398,10 +398,16 @@
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
+          <h2 class="title is-3 methodology-title">Ablation Study</h2>
+        <p class="experiment-question">What is the contribution of each component?</p>
+        <img src="static/images/ablation-study.png" alt="Third research result visualization" loading="lazy"/>
+        <p class="subtitle has-text-left">
+         We evaluate the contribution of each RA-CLIPScore component by individually removing dual prompts (DP), local tokens (LT), global embeddings (GE), or attention refinement (AR), with CLIPScore and HCS as baselines.
+            We estimate score distributions for attribute-present and attribute-absent images using Gaussian kernel density estimation and measure their separation with Cohen’s d, where higher values indicate better discrimination.
+            Across 20 CelebA attributes, the full model achieves the highest mean separation in all three groups: global (1.13), local (2.03), and other (0.92).
+            Removing any component reduces these group-level means, although the best configuration varies by individual attribute: w/o LT performs best for Male, w/o GE for Eyeglasses, and the full model for Smiling.
+            These results highlight attribute-dependent contributions of individual components while supporting the complete framework for evaluation across diverse attributes.
+       </p>
      </div>
      <div class="item">
       <!-- Your image here -->
