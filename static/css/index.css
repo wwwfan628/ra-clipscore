@@ -380,6 +380,41 @@ body {
   text-decoration: underline;
 }
 
+.research-footer-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #475569;
+}
+
+.research-footer-inner section + section {
+  margin-top: 24px;
+}
+
+.research-footer-inner h2 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-primary);
+}
+
+.research-footer-inner p {
+  margin: 0;
+}
+
+.research-footer a {
+  color: #157f79;
+}
+
+.research-footer a:hover,
+.research-footer a:focus-visible {
+  color: #0f615c;
+  text-decoration: underline;
+}
+
 /* BibTeX Styling */
 pre {
   background: var(--background-accent) !important;

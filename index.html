@@ -82,7 +82,7 @@
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/index.css?v=20261014-injection">
+  <link rel="stylesheet" href="static/css/index.css?v=20261014-footer">
   
   <!-- Non-critical CSS - Load asynchronously -->
   <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -489,27 +489,26 @@
 </section>
 <!--End BibTex citation -->
 
-<!-- Comments and acknowledgement -->
-<footer class="footer" id="comments-and-acknowledgement" aria-labelledby="comments-and-acknowledgement-title">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <h2 class="title is-4" id="comments-and-acknowledgement-title">Comments and Acknowledgement</h2>
-          <p>
-            This work was conducted as academic research at KTH Royal Institute of Technology.
-            Taras Kucherenko and Judith Bütepage provided supervisory input only and were not involved in the design, implementation, or evaluation of the experiments.
-          </p>
-          <p>
-            We gratefully acknowledge access to the Berzelius computing resource at the National Supercomputer Centre, provided by the Knut and Alice Wallenberg Foundation.
-            This work was supported by the <a href="https://wasp-sweden.org/" target="_blank" rel="noopener noreferrer">Wallenberg AI, Autonomous Systems and Software Program (WASP)</a>.
-          </p>
-        </div>
-      </div>
-    </div>
+<!-- Comments and acknowledgements -->
+<footer class="footer research-footer" id="comments-and-acknowledgement" aria-label="Comments and acknowledgements">
+  <div class="research-footer-inner">
+    <section aria-labelledby="comments-title">
+      <h2 id="comments-title">Comments</h2>
+      <p>
+        This work was conducted as academic research at KTH Royal Institute of Technology.
+        Taras Kucherenko and Judith Bütepage provided supervisory input only and were not involved in the design, implementation, or evaluation of the experiments.
+      </p>
+    </section>
+    <section aria-labelledby="acknowledgements-title">
+      <h2 id="acknowledgements-title">Acknowledgements</h2>
+      <p>
+        We gratefully acknowledge access to the Berzelius computing resource at the National Supercomputer Centre, provided by the Knut and Alice Wallenberg Foundation.
+        This work was supported by the <a href="https://wasp-sweden.org/" target="_blank" rel="noopener noreferrer">Wallenberg AI, Autonomous Systems and Software Program (WASP)</a>.
+      </p>
+    </section>
   </div>
 </footer>
-<!-- End comments and acknowledgement -->
+<!-- End comments and acknowledgements -->
 
 
 
