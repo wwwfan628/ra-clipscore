@@ -161,7 +161,7 @@ body {
   justify-content: center;
   gap: 0.4rem 1.4rem;
   color: #475569;
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.6;
 }
 
@@ -173,10 +173,10 @@ body {
   display: inline-block;
   margin: 1.25rem 0 0.9rem;
   padding: 0.45rem 1.15rem;
-  border: 1px solid #cce4e1;
+  border: 1px solid #bfdbfe;
   border-radius: 8px;
-  background: #edf6f5;
-  color: #126d68;
+  background: #eff6ff;
+  color: #2563eb;
   font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 0.02em;
