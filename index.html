@@ -82,7 +82,7 @@
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/index.css?v=20261014-footer">
+  <link rel="stylesheet" href="static/css/index.css?v=20261021-affiliations">
   
   <!-- Non-critical CSS - Load asynchronously -->
   <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -212,12 +212,14 @@
                   </span>
                   </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block"><sup>1</sup> KTH Royal Institute of Technology, <sup>2</sup> National Library of Sweden, <sup>3</sup> Electronic Arts (EA) </span><br>
-                      <span class="author-block">Neural Information Processing Systems Annual Conference (NeurIPS), 2026</span>
-                    <!-- Author affiliation note -->
-                      <span class="eql-cntrb"><small><br><sup>*</sup>Most of the work was performed while Taras Kucherenko was at Electronic Arts (EA).</small></span>
+                  <div class="publication-details">
+                    <div class="publication-affiliations" aria-label="Author affiliations">
+                      <span><sup>1</sup> KTH Royal Institute of Technology</span>
+                      <span><sup>2</sup> KBLab, National Library of Sweden</span>
+                      <span><sup>3</sup> Nava, Electronic Arts (EA)</span>
+                    </div>
+                    <p class="conference-label">NeurIPS 2026</p>
+                    <p class="affiliation-note"><sup>*</sup>Most of the work was performed while Taras Kucherenko was at Electronic Arts (EA).</p>
                   </div>
 
                   <div class="column has-text-centered">
@@ -432,15 +434,14 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@misc{lu2026raclipscoremakinggenerativemodel,
+      <pre id="bibtex-code"><code>@inproceedings{lu2026raclipscoremakinggenerativemodel,
       title={RA-ClipScore: Making Generative Model Evaluation More Interpretable},
       author={Yifan Lu and Taras Kucherenko and Hedvig Kjellström and Judith Bütepage},
       year={2026},
-      eprint={2608.12088},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
+      booktitle={Neural Information Processing Systems},
       url={https://arxiv.org/abs/2608.12088},
-}</code></pre>
+}
+</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
